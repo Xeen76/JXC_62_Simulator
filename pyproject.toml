@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["codeblech <my.malikyash@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "jxc_62" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
